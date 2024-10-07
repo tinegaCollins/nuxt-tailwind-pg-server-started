@@ -1,0 +1,52 @@
+body {
+  /* @apply bg-satinlinen text-black; */
+}
+
+.source-serif {
+  font-family: "Nunito", sans-serif;
+}
+
+.color-select {
+  cursor: pointer;
+}
+.color-select:hover p {
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+.color-select p {
+  display: none;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  z-index: 1;
+  white-space: nowrap;
+}
+.notivue-notification {
+  font-weight: bold;
+}
+
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
