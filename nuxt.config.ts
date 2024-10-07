@@ -19,16 +19,16 @@ export default defineNuxtConfig({
   runtimeConfig: {
     oauth: {
       google: {
-        clientId: useRuntimeConfig().oauth.google.clientId,
-        clientSecret: useRuntimeConfig().oauth.google.clientSecret,
+        clientId: "",
+        clientSecret: "",
       },
       facebook: {
-        clientId: useRuntimeConfig().oauth.facebook.clientId,
-        clientSecret: useRuntimeConfig().oauth.facebook.clientSecret,
+        clientId: "",
+        clientSecret: "",
       },
       instagram: {
-        clientId: useRuntimeConfig().oauth.instagram.clientId,
-        clientSecret: useRuntimeConfig().oauth.instagram.clientSecret,
+        clientId: "",
+        clientSecret: "",
       },
     },
   },
